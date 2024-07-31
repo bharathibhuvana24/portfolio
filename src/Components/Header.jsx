@@ -1,4 +1,4 @@
-import { Bars3Icon } from '@heroicons/react/24/solid'
+import { FaBars } from "react-icons/fa";
 import { useState } from 'react'
 
 const Header = () => {
@@ -45,7 +45,7 @@ const Header = () => {
                 </li>
             </ul>
             </nav> }
-            <button onClick={() => setToggleMenu(!toggleMenu)}  className='block md:hidden'><Bars3Icon className='text-white h-5' /></button>
+            <button onClick={() => setToggleMenu(!toggleMenu)}  className='block md:hidden'><FaBars className='text-white h-5' /></button>
         </header>
     ) 
 }
