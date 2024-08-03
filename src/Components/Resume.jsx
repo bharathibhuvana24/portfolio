@@ -1,4 +1,5 @@
 import ResumeImg from '../assets/resume.jpg'
+import ResumeFile from '../assets/Resume.pdf'
 
 const Resume = () => {
   return (    
@@ -11,7 +12,7 @@ const Resume = () => {
         <h1 className='text-4xl text-white border-b-4 border-primary mb-5 w-[140px]'>Resume:</h1>
         <p className='mb-5'>
               You can view my resume by clicking on the link below.
-              <button className='btn ml-32 mt-4'><a href='#'>Download</a></button>
+              <button className='btn ml-32 mt-4'><a href={ResumeFile}>Download</a></button>
          </p>
         </div>
         </div>

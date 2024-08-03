@@ -3,7 +3,7 @@
 const Contact = () => {
 
   const config = 
-    { email: "bharathifsdmern@gmail.com",
+    { email: "bharathibhuvana24@gmail.com",
        phone: "+91 9843394837" 
     };
   return (    

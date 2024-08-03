@@ -1,24 +1,24 @@
-import websiteImg1 from '../assets/ecommerce-websites.jpg'
-import websiteImg2 from '../assets/food-ecommerce.jpg'
-import websiteImg3 from '../assets/website-blog.jpg'
+import websiteImg1 from '../assets/portfolio1.jpg'
+import websiteImg2 from '../assets/react-router-dom.jpg'
+import websiteImg3 from '../assets/Clock.png'
 
 const Projects = () => {
     const config = {
         projects:[
         {
-            description: 'A ecommerce website like swiggy, built with React.js',
+            description: 'A personal portfolio has been built with React.js + Tailwind css',
             image: websiteImg1 ,
-            link: 'https://github.com/bharathibhuvana24/Bharathids',
+            link: 'https://portfolioreactcss.netlify.app/',
         },
         {
-            description: 'A ecommerce website like swiggy, built with React.js',
+            description: 'A simple project to understand about the react-router-dom',
             image: websiteImg2,
-            link: 'https://github.com/bharathibhuvana24/Bharathids',
+            link: 'https://reactrouterdomrea.netlify.app/',
         },
         {
-            description: 'A ecommerce website like swiggy, built with React.js',
+            description: 'Analogue wall clock using HTML CSS JS',
             image: websiteImg3,
-            link: 'https://github.com/bharathibhuvana24/Bharathids',
+            link: 'https://analogwall-clock.netlify.app/',
         }
     ]
 }

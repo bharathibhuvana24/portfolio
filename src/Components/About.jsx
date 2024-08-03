@@ -4,7 +4,7 @@ const About = () => {
 
   const config ={
     ProfileImg : AboutImg,
-    description1 : 'Hi, I am Bagya lakshmi. I am a Full-stack developer on MERN. I always love to work as a full-stack developer and excited for a new challenges.',
+    description1 : 'Hi, I am Bagya Lakshmi. I am a Full-stack developer on MERN. I always love to work as a full-stack developer and excited for a new challenges.',
     description2 :  'I am proficient in frontend skills like React.js, HTML, css, Bootstrap, Redux Tool kit, Axios, Formik, Tailwind css and many more.',
     description3 : 'In Backend i know Node.js, Express.js, MongoDB and Mongoose.'
   }
