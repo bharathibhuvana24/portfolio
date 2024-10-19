@@ -1,25 +1,26 @@
 import websiteImg1 from '../assets/portfolio1.jpg'
 import websiteImg2 from '../assets/react-router-dom.jpg'
-import websiteImg3 from '../assets/Clock.png'
+import websiteImg3 from '../assets/camera-on-rent.jpg'
 
 const Projects = () => {
     const config = {
         projects:[
+            {
+                description: 'Camera Rental using MERN stack',
+                image: websiteImg3,
+                link: 'https://clientrentcapture.netlify.app/',
+            },
         {
             description: 'A personal portfolio has been built with React.js + Tailwind css',
             image: websiteImg1 ,
             link: 'https://portfolioreactcss.netlify.app/',
         },
         {
-            description: 'A simple project to understand about the react-router-dom',
+            description: 'A simple project to understand about the react-router-dom and Context',
             image: websiteImg2,
-            link: 'https://reactrouterdomrea.netlify.app/',
-        },
-        {
-            description: 'Analogue wall clock using HTML CSS JS',
-            image: websiteImg3,
-            link: 'https://analogwall-clock.netlify.app/',
+            link: 'https://usecontextcartapi.netlify.app/',
         }
+        
     ]
 }
     return (
