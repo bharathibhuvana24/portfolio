@@ -1,6 +1,8 @@
 import websiteImg1 from '../assets/portfolio1.jpg'
 import websiteImg2 from '../assets/react-router-dom.jpg'
 import websiteImg3 from '../assets/camera-on-rent.jpg'
+import websiteImg4 from '../assets/Bds.png'
+import websiteImg5 from '../assets/csscalc.png'
 
 const Projects = () => {
     const config = {
@@ -19,6 +21,16 @@ const Projects = () => {
             description: 'A simple project to understand about the react-router-dom and Context',
             image: websiteImg2,
             link: 'https://usecontextcartapi.netlify.app/',
+        },
+        {
+            description: 'A Project only created with html css and bootstrap',
+            image: websiteImg4,
+            link: 'https://bharathidrivschool.netlify.app/',
+        },
+        {
+            description: 'A Project only created with html and css with simple dom',
+            image: websiteImg5,
+            link: 'https://csscalc.netlify.app/',
         }
         
     ]
@@ -48,7 +60,7 @@ const Projects = () => {
                                {project.description}
                             </p>
                         <div className='flex items-center'>
-                            <a target='_blank' className='btn ml-32' href={project.link}>View project</a>
+                            <a target='_blank' className='btn ml-20' href={project.link}>View project</a>
                         </div>
                         </div>
                     </div>
